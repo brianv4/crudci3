@@ -5,7 +5,7 @@
 </head>
 <body>
 	<center><h1>Membuat CRUD dengan CodeIgniter | MalasNgoding.com</h1></center>
-	<center><?php echo anchor('crud/tambah','Tambah Data'); ?></center>
+	<center><?php echo anchor('crud/tambah','Tambah Data'); ?></center> <!--MENAMPILKAN FORM CRUD -->
 	<table style="margin:20px auto;" border="1">
 		<tr>
 			<th>No</th>

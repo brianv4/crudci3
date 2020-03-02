@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/crudci/';
+$config['base_url'] = 'http://localhost/crudci/'; //Mengatur default link 
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +35,8 @@ $config['base_url'] = 'http://localhost/crudci/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = ''; /*Biasanya ini akan menjadi file index.php Anda, kecuali jika Anda telah mengubahnya menjadi
+|                             sesuatu yang lain. 
 
 /*
 |--------------------------------------------------------------------------
@@ -324,8 +325,8 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = 'login';
-
+$config['encryption_key'] = 'login'; //Jika Anda menggunakan Enkripsi, Anda harus mengatur kunci enkripsi.
+                                     // untuk mengatur kunci enkripsi
 /*
 |--------------------------------------------------------------------------
 | Session Variables

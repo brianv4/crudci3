@@ -58,7 +58,8 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('database','session');
+$autoload['libraries'] = array('database','session'); //menghubungkan sistem dengan database
+                             //session = untuk memelihara informasi status mengenai pengguna. seperti login
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +90,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url');
+$autoload['helper'] = array('url'); // membantu kita untuk mendapatkan informasi dari URI pada alamat web kita.
 
 /*
 | -------------------------------------------------------------------
